@@ -8,7 +8,7 @@ Install the required dependencies for this project :
 		pip install -r requirements.txt
 
 This should download and install all dependencies for this project
-The C/C++ files are already compiled so no need to mess with them 
+The C/C++ files are already compiled
 
 In the root directory enter the following command to start the project :
 
@@ -18,7 +18,7 @@ This should start up the camera and show estimations
 
 If this doesnt work , check your tensorflow version (it only works on tensorflow 1.x)
 or
-download graph_opt.pb from models/graph/cmu (its about 200mb) , although this shouldn't be a problem unless you're changing parameters from the ArguemntParser
+download graph_opt.pb from models/graph/cmu (it's about 200mb), although this shouldn't be a problem unless you're changing parameters from the ArguemntParser
 
 
 
